@@ -1,7 +1,7 @@
 from random import randint
 
 colors = ['red', 'blue', 'black', 'pink']
-generator = randint(0,len(colors)-1)
+generator = randint(0,2)
 guess = input('guess a color: ')
 
 for color in colors[generator]:
